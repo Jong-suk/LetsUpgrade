@@ -1,0 +1,67 @@
+/* this is a style to my html */
+body{
+    background-image: url("https://steamuserimages-a.akamaihd.net/ugc/445078003385447497/4043211C8AEFCCEE2EB2DCE050CE9241F9DD05FC/?imw=637&imh=358&ima=fit&impolicy=Letterbox&imcolor=%23000000&letterbox=true");
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    background-size: cover;
+}
+
+.para{
+    font-style: italic;
+    text-align: center;
+    color: red;
+    text-shadow: 0 0 5px blue, 0 0 30px darkblue;
+    font-size: 50px
+  /* padding: 25px;
+  margin-top: 50px; */
+}
+.para2{
+    color: white;
+    text-shadow: 0 0 5px black, 0 0 30px black;
+    text-align: center;
+    font-size: 25px
+}
+.para3{
+    color: white;
+    text-shadow: 0 0 5px black, 0 0 30px black;
+    text-align: left;
+    font-size: 25px
+}
+
+a:link{
+  color: green;
+}
+a:visited{
+  color: blue;
+}
+a:hover{
+  color: red;
+}
+
+h1{
+    font-style: italic;
+    font-style: bold;
+    background-color: black;
+    text-align: center;
+    color: white;
+}
+h2{
+    font-style: bold;
+    background-color: black;
+    text-align: center;
+    color: white;
+}
+h3{
+    font-style: bold;
+    background-color: white;
+    text-align: left;
+    color: black;
+    width: 10%
+}
+h4{
+    font-style: bold;
+    background-color: black;
+    text-align: left;
+    color: white;
+    width: 6%
+}
