@@ -1,0 +1,168 @@
+/* Share Icon Hover */
+.share-btn-container {
+    background: #fff;
+    display: flex;
+    flex-direction: column;
+    padding: 16px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.3);
+    position: fixed;
+    top: 50%;
+    transform: translateY(-50%);
+  }
+  
+  .share-btn-container a i {
+    font-size: 32px;
+  }
+  
+  .share-btn-container a {
+    margin: 12px 0;
+    transition: 500ms;
+  }
+  
+  .share-btn-container a:hover {
+    transform: scale(1.2);
+  }
+  
+  .share-btn-container .fa-facebook {
+    color: #3b5998;
+  }
+  
+  .share-btn-container .fa-twitter {
+    color: #1da1f2;
+  }
+  
+  .share-btn-container .fa-linkedin {
+    color: #0077b5;
+  }
+  
+  .share-btn-container .fa-pinterest {
+    color: #bd081c;
+  }
+  
+  .share-btn-container .fa-whatsapp {
+    color: #25d366;
+  }
+
+  /* Media Queries */
+
+@media (max-width: 550px) {
+    .content {
+      padding: 8px 32px;
+    }
+  
+    .share-btn-container {
+      transform: unset;
+      top: unset;
+      left: 0;
+      bottom: 0;
+      width: 100%;
+      flex-direction: row;
+      box-shadow: 4px 0 8px rgba(0, 0, 0, 0.3);
+      padding: 16px 0;
+      justify-content: center;
+    }
+  
+    .share-btn-container a {
+      margin: 0 32px;
+    }
+  }
+
+/* Portfolio */
+*{
+  padding: 0;
+  margin: 0; 
+  box-sizing: border-box;
+}
+.hero{
+   height: 100vh; 
+   width: 100%;
+   background-image: url("https://rimage.gnst.jp/livejapan.com/public/article/detail/a/00/01/a0001976/img/en/a0001976_parts_5aab21fdbd54b.jpg?20210118175750&q=80&rw=686&rh=490");
+   background-size: cover;
+   background-position: center;
+}
+.logo{
+   color: white;
+   font-size: 35px;
+   letter-spacing: 1px;
+   cursor: pointer;
+}
+span{
+   color: #f9004d;
+}
+.nav{ 
+   display: flex;
+   align-items: center;
+   justify-content: space-between;
+   padding-top: 45px;
+   padding-left: 8%;
+   padding-right: 8%;
+}
+
+ul li{
+   display: inline-block;
+   padding: 10px 30px;
+}
+
+ul li a{
+   color: white;
+   text-decoration: none;
+}
+ul li a:hover{
+   color: #f9004d;
+}
+.btn{
+   background-color: #f9004d;
+   color: white;
+   text-decoration: none;
+   border: 2px solid transparent;
+   font-weight: bold;
+   padding: 10px 25px;
+   border-radius: 30px;
+   transition: transform .6s;
+}
+.btn:hover{
+   transform: scale(1.1);
+}
+.content{
+   position: absolute;
+   top: 50%;
+   left: 8%;
+}
+h1{
+   color: white;
+   margin: 20px 0 20px;
+   font-size: 70px;
+}
+h3{
+   color: white;
+   font-size: 25px;
+   margin-bottom: 20px;
+}
+h4{
+   color: whitesmoke;
+   font-size: 20px;
+   letter-spacing: 2px;
+}
+.newsletter form{
+   width: 400px;
+   max-width: 100%;
+   position: relative;
+}
+.newsletter form input:first-child {
+ width: 100%;
+ display: inline-block;
+ padding: 14px 130px 14px 15px;
+ border: 2px solid #f9004d;
+ border-radius: 30px;
+}
+.newsletter form input:last-child {
+   position: absolute;
+   display: inline-block;
+   border: none;
+   border-radius: 30px;
+   padding: 10px 30px;
+   background-color: #f9004d;
+   color: white;
+   top: 6px;
+   right: 6px;
+}
