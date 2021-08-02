@@ -1,0 +1,21 @@
+body{
+    background-image: url("https://www.teahub.io/photos/full/31-312046_scientific-calculator-number.jpg");
+    height: 100vh; 
+    width: 100%;
+    background-size: cover;
+    background-position: center;
+}
+
+h1{
+    font-style: italic;
+    font-style: bold;
+    background-color: black;
+    text-align: center;
+    color: white;
+}
+h2{
+    font-style: bold;
+    background-color: black;
+    text-align: center;
+    color: white;
+}
