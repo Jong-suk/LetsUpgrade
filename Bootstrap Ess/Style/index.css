@@ -1,0 +1,16 @@
+.my-container{
+    background-color: lightgray;
+    height: 600px;
+
+}
+
+.block{
+    height: auto;
+    min-height: 30px;
+    background-color: red;
+}
+
+.row-1{
+    height: 400px;
+    background-color: bisque;
+}

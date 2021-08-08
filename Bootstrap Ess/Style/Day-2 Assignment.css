@@ -1,0 +1,60 @@
+body{
+    background-image: url("https://www.nme.com/wp-content/uploads/2019/06/T33DPT-1024x599.jpg");
+    background-attachment: fixed;
+    background-size: cover;
+    height: 100vh; 
+    width: 100%;
+    background-position: center;
+}
+
+h1{
+    font-style: italic;
+    font-style: bold;
+    text-align: center;
+    color: black;
+}
+h2{
+    font-style: bold;
+    text-align: center;
+    color: black;
+}
+
+span{
+    color: #f9004d;
+}
+
+.my-container{
+    
+    text-align:center;
+    text-align:justify;
+}
+
+.input-container{
+    padding: 10px 30px;
+}
+
+.label{
+    padding-bottom: 5px;
+}
+
+.card {
+    margin-bottom: 40px;
+}
+
+.block{
+    height: 150px;   
+    width: 150px; 
+    background-color: white;
+    text-align:center;
+    
+    align-content:justify;
+}
+
+.row-1{
+    height: 150px;
+    background-color: gray;
+    text-align:center;
+    text-align:justify;
+    align-items: center;
+    justify-content:space-between;
+}
