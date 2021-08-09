@@ -1,0 +1,133 @@
+.navigation{
+    height: 70px !important;
+}
+
+.nav-link{
+    color: white !important;
+    padding-left:10px !important;
+    padding-right: 10px !important;
+    
+}
+
+.navbar-brand{
+    color: white !important;
+    font-size: 40px !important;
+    font-weight: bold !important;
+}
+
+.navbar-collapse{
+    background-color: #0d6efd !important;
+}
+
+.banner{
+
+    height: 750px;
+    background-color: gray;
+    background-image: url('http://cdn.cnn.com/cnnnext/dam/assets/181010131059-australia-best-beaches-cossies-beach-cocos3.jpg');
+    background-size: cover;
+    display: flex;
+    align-items: center;
+    justify-content: flex-end;
+
+}
+
+.banner_content{
+
+ background-color: rgba(255,255,255,0.7);
+ display: flex;
+ align-items: center;
+ 
+}
+.padd{
+    padding: 30px;
+}
+
+.banner_title{
+    font-size: 60px;
+}
+
+/* css for destinations  */
+
+.title{
+    text-align: center;
+}
+
+.destinations{
+    padding-top: 50px;
+    padding-bottom: 50px;
+}
+
+.my-card{
+    width: 400px !important;
+    margin-top: 30px !important;
+}
+
+/* css for packages  */
+
+.packages-bg{
+    background-color: #ececec;
+}
+
+.packages{
+    padding-top: 50px;
+    padding-bottom: 50px;
+}
+
+/* ad banner  */
+
+.banner-ad{
+    height: 800px;
+    background-image: url('https://images.pexels.com/photos/3601369/pexels-photo-3601369.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=750&w=1260');
+    background-size: cover;
+    background-position: bottom;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.ad-content{
+
+    background-color: rgba(0,0,0,0.7);
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.ad_title{
+    color: white;
+    margin-bottom: 30px;
+}
+
+/* css contact  */
+
+.map {
+    width: 100%;
+    height: 400px;
+}
+
+
+
+/* css for mobile  */
+
+@media (max-width:500px) {
+
+    .banner-ad{
+        height: 500px;
+    }
+
+    .banner{
+        height: 600px;
+    }
+
+
+    
+}
+
+
+
+
+
+
+
+
+
