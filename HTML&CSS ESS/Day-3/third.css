@@ -1,0 +1,30 @@
+*{
+    margin: 0px;
+    padding: 0px;
+}
+
+.one{
+    height: 700px;
+    width: 100%;
+    background-color: red;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-evenly;
+    align-items: end; 
+
+
+
+}
+
+/* row - x=main  y-cross  */
+/* column - x-cross y-main */
+
+
+
+.one_child{
+    width: 100px;
+    height: 100px;
+    background-color: green;
+    
+}
+

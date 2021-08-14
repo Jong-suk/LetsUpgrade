@@ -1,0 +1,65 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <title>Positions</title>
+    <style>
+        *{
+            margin: 0px;
+            padding: 0px;
+        }
+
+        .main{
+            height: 1500px;
+            width: 400px;
+            /* background-color: red; */
+            margin: 100px;
+            border: 5px solid black;
+            position: relative;
+        }
+
+        .one{
+            height: 200px;
+            width: 200px;
+            background-color: red;
+        }
+
+        .two{
+            height: 200px;
+            width: 200px;
+            background-color: green;
+            position: fixed;
+            left:0;
+            top: 300px;
+            
+        }
+
+        .three{
+            height: 200px;
+            width: 200px;
+            background-color: blue;
+        }
+
+
+
+    </style>
+</head>
+<body>
+
+    <!-- relative - positioned according to original place -->
+    <!-- absolute - positioned according to nearest positioned ancstor or directly to viewport  -->
+    <!-- fixed- always go to viewport -->
+    
+    <div class="main">
+
+            <div class="one"></div>
+            <div class="two"></div>
+            <div class="three"></div>
+
+            <a href="https://www.google.co.in">Clik to go to google</a>
+
+    </div>
+
+
+
+</body>
+</html>
